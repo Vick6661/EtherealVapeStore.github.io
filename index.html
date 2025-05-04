@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VapeStore</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        background: #f7f7f7;
+        color: #333;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+        background-color: #fff;
+      }
+      header nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      .cta-btn {
+        background: #39ce5e;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      .hero {
+        background: #fff;
+        text-align: center;
+        padding: 60px 20px;
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+        color: #2e7d32;
+      }
+      .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 20px;
+        background-color: #fff;
+      }
+      .feature-box {
+        width: 30%;
+        text-align: center;
+      }
+      .stats {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 20px;
+        background: #e0f2f1;
+      }
+      .demo-section {
+        text-align: center;
+        padding: 60px 20px;
+        background: #fff;
+      }
+      footer {
+        background: #263238;
+        color: white;
+        padding: 40px 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      footer div {
+        margin-bottom: 20px;
+      }
+      footer a {
+        color: #90caf9;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .email-signup input {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><strong>Vape Store</strong></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">E-Juice</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Bantuan</a>
+      </nav>
+      <div>
+        <a href="#" class="cta-btn">Login</a>
+        <a href="#" class="cta-btn" style="margin-left: 10px">Sign Up</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>ETHEREAL VAPE STORE</h1>
+      <p>
+        Explore high-quality vape devices and flavors made for true enthusiasts
+      </p>
+    </section>
+
+    <section class="features">
+      <div class="feature-box">
+        <img
+          src="geekvape.jpeg"
+          alt="Starter Kit"
+          style="width: 80px; height: auto; margin-bottom: 10px"
+        />
+        <h3>Starter Kits</h3>
+        <p>
+          Perfect for beginners to get started with vaping safely and easily.
+        </p>
+      </div>
+      <div class="feature-box">
+        <img
+          src="modhexv3.jpg"
+          alt="Advanced Mods"
+          style="width: 80px; height: auto; margin-bottom: 10px"
+        />
+        <h3>Advanced Mods</h3>
+        <p>High-performance devices for experienced users who want control.</p>
+      </div>
+      <div class="feature-box">
+        <img
+          src="liquid.png"
+          alt="Flavor Collections"
+          style="width: 80px; height: auto; margin-bottom: 10px"
+        />
+        <h3>Flavor Collections</h3>
+        <p>Discover a wide variety of premium and exclusive E-Juice.</p>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div>
+        <h2>10,000+</h2>
+        <p>Satisfied Customers</p>
+      </div>
+      <div>
+        <h2>200+</h2>
+        <p>Flavor Options</p>
+      </div>
+      <div>
+        <h2>5,000+</h2>
+        <p>Monthly Orders</p>
+      </div>
+      <div>
+        <h2>4.9/5</h2>
+        <p>Average Rating</p>
+      </div>
+    </section>
+
+    <section class="demo-section">
+      <h2>Ingin Mencari Produk yang Lain?</h2>
+      <a href="#" class="cta-btn">Kontak Kami</a>
+    </section>
+
+    <footer>
+      <div>
+        <strong>Vape Store</strong>
+        <p>&copy; 2025 Ethereal VapeStore Ltd. All rights reserved.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="email-signup">
+        <h4>Stay up to date</h4>
+        <input type="email" placeholder="Your email address" />
+      </div>
+    </footer>
+  </body>
+</html>
